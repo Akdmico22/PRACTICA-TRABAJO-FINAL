@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Roboto&display=swap');
+*{font-family: 'Roboto', sans-serif;
+margin: 0;}
+
+body{ 
+    background-color: rgba(93, 231, 249, 0.594);
+}
+h1{
+    color: white
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+   
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(53, 129, 243);
+    padding: 5px 150px;
+}
+
+nav{
+    display: flex;
+    gap: 60px;
+}
+
+.caja1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(15, 158, 235);
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+    margin: 20px 20px 20px;
+    padding-top: 10px; 
+    text-align: center;
+    color: white; 
+}
+.caja{ 
+    width: 500px;
+    height: 500px;
+    background-color: rgb(15, 158, 235);
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+    margin: 20px 50px 20px;
+    padding-top: 10px; 
+    text-align: center;
+    color: white;
+    
+    ;
+     }
+
+main{
+    display: flex;
+}
+ input{
+    width: 250px;
+    height: 30px;
+    background-color: rgba(6, 6, 148, 0.772);
+    color: white;
+    margin-top: 450px;
+    border-radius: 5px;
+ }
